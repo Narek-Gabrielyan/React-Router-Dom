@@ -1,0 +1,35 @@
+
+.box {
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+        .hr {
+        border-color: #bdb5b5;
+        margin: 2px 0;
+    }
+}
+
+.box_item_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    span {
+        color: #696969;
+    }
+
+    h3 {
+        display: inline-block;
+        color: #800000;
+    }
+
+    h4 {
+        text-align: center;
+        color: #008000;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}

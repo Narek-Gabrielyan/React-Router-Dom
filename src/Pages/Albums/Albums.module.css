@@ -1,0 +1,32 @@
+.box_style {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin-top: 10px;
+
+  .box {
+    border: 1px solid green;
+    background-color: rgba(85, 107, 47, 0.127);
+    padding: 4px;
+    border-radius: 8px;
+
+    .box_item {
+      span {
+        display: block;
+        color: rgb(89, 4, 4);
+      }
+
+      h3 {
+        display: inline-block;
+        color: darkgreen;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .box_style {
+      grid-template-columns: 1fr;
+  }
+}

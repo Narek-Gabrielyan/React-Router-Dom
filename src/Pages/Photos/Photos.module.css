@@ -1,0 +1,44 @@
+
+.box {
+  border: 1px solid royalblue;
+  background-color: rgba(0, 0, 0, 0.348);
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 4px;
+
+  .title {
+    text-align: center;
+
+    span {
+      color: darkslateblue;
+
+      h3 {
+        display: inline-block;
+        color: darkgreen;
+      }
+    }
+  }
+
+  .box_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      height: 100px;
+      border-radius: 8px;
+      border: 1px solid black;
+    }
+
+    .box_item_2 {
+      span {
+        color: brown;
+
+        h3 {
+          display: inline-block;
+          color: blanchedalmond
+        }
+      }
+    }
+  }
+}

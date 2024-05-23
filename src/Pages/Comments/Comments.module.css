@@ -1,0 +1,32 @@
+.element {
+  border: 1px solid darkslategray;
+  background-color: rgba(110, 124, 2, 0.408);
+  padding: 4px;
+  border-radius: 8px;
+  margin: 10px 0;
+
+  .element_item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    span {
+      color: rgb(118, 98, 11);
+
+      h3 {
+        display: inline-block;
+        color: brown;
+      }
+    }
+  }
+
+  .title {
+    span {
+      color: darkgreen;
+
+      h3 {
+        color: darkslategray;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+
+.box {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgba(85, 107, 47, 0.412);
+    margin: 10px 0;
+    padding: 4px;
+
+    h3 {
+        display: inline-block;
+    }
+
+    .box_item {
+        display: flex;
+        justify-content: space-between;
+
+        .box_item_2 {
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+        }
+    }
+}
