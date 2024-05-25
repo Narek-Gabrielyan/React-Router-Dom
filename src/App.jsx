@@ -1,9 +1,11 @@
-
-import "./App.css";
-
+// **** Installed libraries **** //
 import { Routes, Route } from "react-router-dom";
+
+// **** JSX **** //
 import Loyout from "./Components/Loyout";
 import NotFound from "./Components/NotFound";
+
+import { Product } from "./Components/Product/Product.jsx";
 
 // **** Pages **** //
 import Users from "./Pages/Useres/Users.jsx";
@@ -13,10 +15,11 @@ import Photos from "./Pages/Photos/Photos.jsx";
 import Posts from "./Pages/Posts/Posts.jsx";
 import ToDos from "./Pages/ToDos/ToDos.jsx";
 // **** End Pages **** //
-import { Product } from "./Components/Product/Product.jsx";
+
+// **** CSS **** //
+import "./App.css";
 
 function App({ albums, comments, photos, posts, todos, users }) {
-
   return (
     <div className="container">
       <div className="container_item">
@@ -32,15 +35,12 @@ function App({ albums, comments, photos, posts, todos, users }) {
             <Route path="/posts" element={<Posts posts={posts} />} />
             <Route path="/todos" element={<ToDos todos={todos} />} />
             <Route path="*" element={<NotFound />} />
-
-            {/*  */}
+            {/* Element click */}
             <Route path="/albums/:id" element={<Product albums={albums} />} />
-
           </Route>
         </Routes>
       </div>
     </div>
   );
 }
-
 export default App;

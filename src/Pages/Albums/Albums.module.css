@@ -13,14 +13,18 @@
     .box_item {
       span {
         display: block;
-        color: rgb(89, 4, 4);
+        color: rgb(0, 120, 0);
       }
 
       h3 {
         display: inline-block;
-        color: darkgreen;
+        color: rgb(26, 180, 26);
       }
     }
+  }
+
+  a {
+    text-decoration: none;
   }
 
 }

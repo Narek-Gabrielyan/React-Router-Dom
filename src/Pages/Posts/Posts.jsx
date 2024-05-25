@@ -1,9 +1,8 @@
+// **** Component tag <span> & <h3> **** //
+import { Tag_Span } from "../../Components/Tag_Span";
 
 // **** CSS **** //
 import post from "./Posts.module.css";
-
-// **** Component tag <span> & <h3> **** //
-import { Tag_Span } from "../../Components/Tag_Span";
 
 export default function Posts({ posts }) {
     

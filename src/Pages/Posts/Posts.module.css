@@ -1,13 +1,15 @@
 
 .box {
-    border: 1px solid black;
+    border: 1px solid #556B2F;
     border-radius: 8px;
     background-color: rgba(85, 107, 47, 0.412);
     margin: 10px 0;
     padding: 4px;
-
+    color: #BDB76B;
+    
     h3 {
         display: inline-block;
+        color: #969583;
     }
 
     .box_item {

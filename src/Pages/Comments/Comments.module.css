@@ -11,21 +11,21 @@
     flex-wrap: wrap;
 
     span {
-      color: rgb(118, 98, 11);
+      color: rgb(185, 154, 19);
 
       h3 {
         display: inline-block;
-        color: brown;
+        color: rgb(228, 201, 77);
       }
     }
   }
 
   .title {
     span {
-      color: darkgreen;
+      color: rgb(31, 181, 31);
 
       h3 {
-        color: darkslategray;
+        color: rgb(83, 203, 83);
       }
     }
   }

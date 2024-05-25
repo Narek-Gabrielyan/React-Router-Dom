@@ -1,7 +1,7 @@
 
 .box {
-  border: 1px solid royalblue;
-  background-color: rgba(0, 0, 0, 0.348);
+  border: 1px solid rgb(25, 134, 1);
+  background-color: rgba(55, 29, 29, 0.627);
   border-radius: 8px;
   margin: 10px 0;
   padding: 4px;
@@ -10,11 +10,11 @@
     text-align: center;
 
     span {
-      color: darkslateblue;
+      color: rgb(73, 139, 61);
 
       h3 {
         display: inline-block;
-        color: darkgreen;
+        color: rgb(0, 151, 0);
       }
     }
   }
@@ -32,11 +32,11 @@
 
     .box_item_2 {
       span {
-        color: brown;
+        color: #b95d1b;
 
         h3 {
           display: inline-block;
-          color: blanchedalmond
+          color: #f7a76e;
         }
       }
     }

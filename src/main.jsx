@@ -1,18 +1,22 @@
+// **** Installed libraries **** //
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-
 import { BrowserRouter } from 'react-router-dom';
 
+// **** JSX **** //
+import App from './App.jsx'
+
 // **** Relative Data Base **** //
-import { Albums } from './Relative Data Base/Albums.jsx';
-import { Comments } from './Relative Data Base/Comments.jsx';
-import { Photos } from './Relative Data Base/Photos.jsx';
-import { Posts } from './Relative Data Base/Posts.jsx';
-import { Todos } from './Relative Data Base/Todos.jsx';
-import { Users } from './Relative Data Base/Users.jsx';
+import { Albums } from './Relative Data Base/Albums.js';
+import { Comments } from './Relative Data Base/Comments.js';
+import { Photos } from './Relative Data Base/Photos.js';
+import { Posts } from './Relative Data Base/Posts.js';
+import { Todos } from './Relative Data Base/Todos.js';
+import { Users } from './Relative Data Base/Users.js';
 // **** Relative Data Base end **** //
+
+// **** CSS **** //
+import './index.css'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>

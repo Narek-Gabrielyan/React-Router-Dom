@@ -9,20 +9,19 @@ header {
   a {
     padding: 0 16px;
     text-decoration: none;
-    border: 1px solid black;
     border-radius: 8px;
-    background-color: rgba(165, 42, 42, 0.434);
+    background-color: #009000;
     height: 100%;
     line-height: 60px;
 
-    &:first-child {
+      &:nth-child(odd), &:nth-child(even)  {
       border: none;
       padding: 0;
       display: flex;
 
       img {
         height: 60px;
-        border: 1px solid red;
+        border: 1px solid black;
         border-radius: 8px;
       }
     }
@@ -41,8 +40,10 @@ header {
   padding-top: 10px;
   display: flex;
   justify-content: center;
-  background-color: rgba(47, 79, 79, 0.401);
+  background-color: #202020;
   min-width: 800px;
+  height: 100vh;
+  overflow: auto;
 
   .container_item {
     width: 1024px;
